@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-// import { fetchLogs, fetchMetrics } from '../api';
+import { fetchLogs, fetchMetrics } from '../api';
 
 const DEFAULT_METRICS = {
   total_deploys: 0,
