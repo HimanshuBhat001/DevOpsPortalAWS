@@ -1,4 +1,4 @@
-const BASE = 'http://localhost:5000';
+const BASE = 'http://13.200.215.159:5000';
 
 export const loginUser = async (username, password) => {
   const res = await fetch(`${BASE}/login`, {
